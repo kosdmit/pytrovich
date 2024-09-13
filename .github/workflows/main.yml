@@ -33,6 +33,6 @@ jobs:
 
     - name: Run Tests
       run: |
-        pip install pytest
-        pytest
+        pip install pytest pytest-cov
+        pytest --cov
 
